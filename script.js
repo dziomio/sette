@@ -1,6 +1,4 @@
 
-
-
 let books = document.querySelectorAll('.books');
 let book = document.querySelectorAll('.book');
 
@@ -28,11 +26,8 @@ books[0].insertBefore( book[1], book[0]);
 //6- в шестой книге добавить главу “Глава 8: За пределами ES6” и поставить её в правильное место
 let newElem = document.createElement('li');
 newElem.textContent = 'Глава 8: За пределами ES6';
-ul[4].appendChild(newElem);
-let chapterBook = ul[4].querySelectorAll('li');
-
-//chapterBook[0].insertBefore(li[10], li[8]);
-
+ul[2].appendChild(newElem);
+ul[2].insertBefore( li[26], null);
 
 
 //3 Исправить заголовок в книге 3
